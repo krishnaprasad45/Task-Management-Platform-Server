@@ -1,0 +1,20 @@
+"use strict";
+var __importDefault = (this && this.__importDefault) || function (mod) {
+    return (mod && mod.__esModule) ? mod : { "default": mod };
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+var express_1 = __importDefault(require("express"));
+var userController_1 = require("../../../adapters/controllers/userController");
+var taskController_1 = require("../../../adapters/controllers/taskController");
+var jwtTokenAuth_1 = require("../middleware/jwtTokenAuth");
+var userRoute = express_1.default.Router();
+userRoute.post("/signup", userController_1.userSignup);
+userRoute.post("/login", userController_1.userLogin);
+userRoute.get("/profile", jwtTokenAuth_1.verifyToken, userController_1.profile);
+userRoute.get("/list-users", jwtTokenAuth_1.verifyToken, userController_1.listUsers);
+userRoute.post("/profile/update", jwtTokenAuth_1.verifyToken, userController_1.profileUpdate);
+userRoute.post("/create-task", jwtTokenAuth_1.verifyToken, taskController_1.userCreateTask);
+userRoute.get("/list-tasks", jwtTokenAuth_1.verifyToken, taskController_1.listTasks);
+userRoute.delete("/delete-task/:taskId", jwtTokenAuth_1.verifyToken, taskController_1.deleteTask);
+userRoute.patch("/update-task/:taskId", jwtTokenAuth_1.verifyToken, taskController_1.updateTask);
+exports.default = userRoute;
