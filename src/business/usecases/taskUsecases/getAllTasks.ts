@@ -3,7 +3,6 @@ import { deleteTask, fetchAllTasks } from "../../../adapters/data-access/reposit
 export async function getAllTasks() {
   const tasks = await fetchAllTasks();
   if (!tasks || tasks.length === 0) {
-    console.log("nooooo.....")
     // throw new Error("No tasks found");
   }
   return tasks;

@@ -34,8 +34,3 @@ export interface userProfileInterface {
     name?:string
    
 }
-export interface userGoogleSignUp {
-    name: string,
-    email: string,
-    date?:string
-}
