@@ -1,7 +1,8 @@
 <div style="background-color:#f8f9fa; padding: 20px; border-radius: 10px; text-align: left;">
 
 <h1 align="left">Backend - Node.js + Express + MongoDB 🌟</h1>
-<a href="https://github.com/krishnaprasad45/Task-Management-Platform-Client"><h2>Click here to see the FRONTEND code 🌟</h2></a>
+### [CLICK HERE TO SEE THE FRONTEND CODE 🌟](https://github.com/krishnaprasad45/Task-Management-Platform-Client)
+
 
 <h2 align="left">Task Management Platform - Server</h2>
 
@@ -58,6 +59,6 @@ To get started with the backend:
 ## Feedback
 
 If you have any feedback, please reach out to me at krishnaprasadc45@gmail.com. <br>
-<a href="https://github.com/krishnaprasad45/Task-Management-Platform-Client"><h2>CLICK HERE TO SEE THE FRONTEND CODE 🌟</h2></a>
+### [CLICK HERE TO SEE THE FRONTEND CODE 🌟](https://github.com/krishnaprasad45/Task-Management-Platform-Client)
 
 </div>
