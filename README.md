@@ -1,8 +1,5 @@
 <div style="background-color:#f8f9fa; padding: 20px; border-radius: 10px; text-align: left;">
 
-[![Watch Demo](https://img.shields.io/badge/▶-Watch%20Demo-red?style=for-the-badge&logo=youtube&logoColor=white)](https://youtu.be/WzLPOAYwmik)
-[![Watch Demo](https://img.shields.io/badge/▶-Watch%20Demo-red?style=for-the-badge&logo=youtube&logoColor=white)](https://youtu.be/WzLPOAYwmik)
-
 
 <h1 align="left">Backend - Node.js + Express + MongoDB 🌟</h1>
 ### [CLICK HERE TO SEE THE FRONTEND CODE 🌟](https://github.com/krishnaprasad45/Task-Management-Platform-Client)
@@ -64,8 +61,5 @@ To get started with the backend:
 
 If you have any feedback, please reach out to me at krishnaprasadc45@gmail.com. <br>
 ### [CLICK HERE TO SEE THE FRONTEND CODE 🌟](https://github.com/krishnaprasad45/Task-Management-Platform-Client)
-[![Watch Demo](https://img.shields.io/badge/▶-Watch%20Demo-red?style=for-the-badge&logo=youtube&logoColor=white)](https://youtu.be/WzLPOAYwmik)
-[![Watch Demo](https://img.shields.io/badge/▶-Watch%20Demo-red?style=for-the-badge&logo=youtube&logoColor=white)](https://youtu.be/WzLPOAYwmik)
-
 
 </div>
